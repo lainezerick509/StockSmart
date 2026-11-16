@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StockSmart | Panel principal</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- MENU LATERAL -->
+    <aside class="sidebar">
+
+        <div class="logo">StockSmart</div>
+
+        <div class="subtitulo-logo">
+            GESTIÓN INTELIGENTE
+        </div>
+
+        <nav class="menu">
+
+            <a href="/" class="activo">▦ Panel principal</a>
+
+            <a href="/productos">📦 Productos</a>
+
+            <a href="#">🏬 Inventario</a>
+
+            <a href="#">🛒 Ventas</a>
+
+            <a href="#">📊 Reportes</a>
+
+            <a href="#">🧠 Predicciones</a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="contenido">
+
+        <header class="encabezado">
+
+            <div>
+                <h1>Panel principal</h1>
+                <p>Bienvenido al sistema de gestión StockSmart.</p>
+            </div>
+
+            <div class="usuario">
+                Administrador
+            </div>
+
+        </header>
+
+
+        <!-- TARJETAS DE INFORMACION -->
+        <section class="tarjetas">
+
+            <div class="tarjeta">
+                <div class="icono">📦</div>
+                <h3>Total de productos</h3>
+                <h2>{{ total_productos }}</h2>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">💰</div>
+                <h3>Ventas registradas</h3>
+                <h2>$0.00</h2>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">⚠️</div>
+                <h3>Productos con stock bajo</h3>
+                <h2>{{ stock_bajo }}</h2>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">🏬</div>
+                <h3>Unidades disponibles</h3>
+                <h2>{{total_unidades}}</h2>
+            </div>
+
+        </section>
+
+
+        <!-- ACTIVIDAD RECIENTE -->
+        <section class="actividad">
+
+            <h2>Actividad reciente</h2>
+
+            <p>
+                Aquí aparecerán los movimientos del inventario,
+                las entradas de productos y las ventas realizadas.
+            </p>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
