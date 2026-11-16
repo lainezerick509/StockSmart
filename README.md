@@ -1,5 +1,4 @@
 # ProyectoProgramacionUGB
-
 NOMBRE DE PROYECTO: STOCKSMART
 
 Erick Joel Lainez Ramirez - SMTR022625
