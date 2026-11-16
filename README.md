@@ -1,10 +1,2 @@
 # ProyectoProgramacionUGB
-
-NOMBRE DE PROYECTO: STOCKSMART
-
-Erick Joel Lainez Ramirez - SMTR022625
-Erwin Noe Rivera Fuentes - SMTR018925
-Deny Alexi Quintanilla Morataya - SMTR046425
-Josue Ulises Zelaya Perdomo - SMTR034525
-
-DESCRIPCION DE PROYECTO: SISTEMA INTELIGENTE DE GESTION DE INVENTARIO PARA PEQUEÑOS NEGOCIOS
+Proyecto universitario de programación
